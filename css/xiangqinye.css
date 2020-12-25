@@ -1,0 +1,273 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+.de-container {
+  width: 1200px;
+  margin: 0 auto;
+  /* height: 800px; */
+  /* background-color: pink; */
+}
+.crumb-wrap {
+  margin-top: 20px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  /* background-color: skyblue; */
+}
+.crumb-wrap ul li {
+  float: left;
+}
+.crumb-wrap ul li:nth-child(-n + 3)::after {
+  content: "\e920";
+  font-family: "icomoon";
+  font-size: 18px;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+/* product-intro产品介绍 */
+.product-intro {
+  width: 1200px;
+  height: 550px;
+  /* background-color: #00a4ff; */
+}
+.preview-wrap {
+  float: left;
+  width: 400px;
+  height: 400px;
+  background-color: pink;
+}
+.preview-img {
+  width: 400px;
+  height: 400px;
+}
+.preview-img li img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+}
+/* preview-list预览列表 */
+.preview-list {
+  width: 400px;
+  height: 60px;
+  /* background-color: skyblue; */
+}
+.preview-list ul {
+  width: 400px;
+  height: 60px;
+  margin: 40px 0 40px 0;
+}
+.preview-list ul li {
+  float: left;
+  border: 2px solid transparent;
+  margin: 0 1px;
+}
+.preview-list ul li:hover {
+  border: 2px solid red;
+}
+.preview-list ul .arrow {
+  width: 22px;
+  height: 32px;
+  margin: 15px 10px 0;
+  border: 0;
+}
+.preview-list ul .arrow:hover {
+  border: 0;
+}
+/* itemlnfo-wrap产品详细信息  右边  */
+.itemlnfo-wrap {
+  float: left;
+  width: 700px;
+  height: 500px;
+  /* background-color: pink; */
+  margin-top: 5px;
+  margin-left: 100px;
+}
+.itemlnfo-wrap h2 {
+  color: #000;
+}
+.itemlnfo-wrap h6 {
+  color: red;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.itemlnfo-wrap .hd {
+  height: 340px;
+  width: 100%;
+  padding-top: 20px;
+  background-color: #fff;
+}
+.price {
+  overflow: hidden;
+  line-height: 35px;
+  background-color: pink;
+}
+.hd dl dt {
+  float: left;
+  width: 70px;
+}
+.price dd span {
+  font-size: 18px;
+  color: red;
+}
+.price dd span em {
+  font-size: 12px;
+}
+.price dd i {
+  float: right;
+  margin-right: 10px;
+}
+.price dd strong {
+  background-color: red;
+  font-size: 14px;
+  color: #fff;
+}
+.price .zanwei {
+  width: 70px;
+  height: 35px;
+  background-color: pink;
+}
+.zhifu {
+  margin-top: 5px;
+}
+.choose {
+  height: 55px;
+  line-height: 55px;
+}
+.choose dd {
+  display: inline-block;
+}
+.choose dd button {
+  height: 40px;
+  width: 80px;
+}
+.choose dd:hover button {
+  border: 1px solid red;
+}
+.choose-amount {
+  width: 200px;
+  height: 60px;
+  /* background-color: pink; */
+}
+.anniu {
+  float: left;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.shuliang-box {
+  float: right;
+  height: 40px;
+  width: 10px;
+  background-color: #fff;
+}
+.shuliang-box .jia,
+.shuliang-box .jian {
+  width: 10px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #ccc;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.shuliang-box .jia {
+  border-bottom: 0;
+}
+.addshopcar {
+  float: left;
+  margin-left: 20px;
+  width: 120px;
+  height: 40px;
+  background: red;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+}
+/* product-detail 产品细节 */
+.product-detail {
+  /* height: 900px; */
+  /* background-color: pink; */
+}
+.detail-fl {
+  float: left;
+  width: 182px;
+  /* height: 600px; */
+  /* background-color: #ccc; */
+  border: 1px solid #ccc;
+}
+.fl-top {
+  height: 40px;
+  /* background-color: pink; */
+}
+.fl-top .zuo {
+  float: left;
+  width: 90px;
+  height: 40px;
+  background-color: #ececec;
+  color: #000;
+  text-align: center;
+  line-height: 40px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.fl-top .you {
+  float: right;
+  width: 90px;
+  height: 40px;
+  background-color: #fff;
+  color: red;
+  text-align: center;
+  line-height: 40px;
+}
+.detail-fl .aside {
+  width: 180px;
+}
+.aside {
+  float: left;
+  width: 180px;
+}
+.aside li {
+  width: 180px;
+  height: 220px;
+  padding: 0 10px;
+  /* background-color: blue; */
+}
+.aside:last-child {
+  margin-bottom: 10px;
+}
+.aside li a {
+  display: inline-block;
+}
+.aside li .detail {
+  width: 160px;
+  height: 220px;
+  border-bottom: 2px solid #ccc;
+}
+.detail img {
+  width: 100%;
+}
+.detail h4 {
+  font-weight: 400;
+}
+.detail p {
+  margin-top: 5px;
+  font-weight: 700;
+}
+.detail a {
+  display: block;
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}

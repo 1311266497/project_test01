@@ -1,0 +1,116 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  height: 84px;
+  padding-top: 18px;
+  border-bottom: 2px solid #b1191a;
+}
+.register {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+.hd {
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px solid #ccc;
+  background-color: #ececec;
+}
+.hd h3 {
+  padding: 0 10px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+}
+.hd h3 .login {
+  float: right;
+  font-size: 14px;
+}
+.hd h3 .login a {
+  color: red;
+}
+.bd {
+  height: 480px;
+}
+.bd .main {
+  width: 600px;
+  margin: 56px auto 0;
+}
+.formaroup {
+  margin-bottom: 20px;
+}
+.formaroup label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+.formaroup .inp {
+  width: 240px;
+  height: 36px;
+  border: 1px solid #999;
+}
+.error {
+  color: red;
+}
+.error::before,
+.success::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin: 0 4px;
+  background: url(../images/error.png);
+}
+
+.success {
+  color: green;
+}
+.success::before {
+  background: url(../images/success.png);
+}
+
+.safe {
+  padding-left: 180px;
+  margin-top: -10px;
+  color: #b3b3b3;
+}
+.safe i {
+  padding: 0 11px;
+  color: #fff;
+}
+.safe i.weak {
+  background-color: #de1111;
+}
+.safe i.mid {
+  background-color: #40b83f;
+}
+.safe i.strong {
+  background-color: #f79100;
+}
+/* 协议 */
+.agree {
+  padding-left: 97px;
+  margin-top: 43px;
+}
+.agree input {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.agree a {
+  color: #1ba1e6;
+}
+/* 提交 */
+.submit {
+  padding-left: 118px;
+  margin-top: 50px;
+}
+.submit input {
+  width: 200px;
+  height: 34px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #c81623;
+}
